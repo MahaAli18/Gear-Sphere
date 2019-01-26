@@ -1,0 +1,178 @@
+@media (max-width: 576px) {
+    nav .container{
+      width:100%;
+      background-size: cover;
+     
+    }
+}
+
+.nav-log{
+  color: #fff!important;
+}
+
+.nav1{
+  background-color: rgb(32, 31, 31); 
+}
+
+.nav2{
+  background-color:rgba(100, 57, 62, 0.856)!important;  /*navbar background-colour */ 
+}
+
+
+
+  .nav2 .container{   /* for elements of navbar in center*/
+    display: flex;
+    justify-content: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.nav2{
+  position: fixed;
+  z-index:10;
+}
+
+
+.nav2 {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+.nav2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+.nav2 li {
+  display: inline-block;
+}
+
+.nav2 a {
+  color: rgb(8, 4, 4);
+  text-decoration: none;
+  display: block;
+  padding: .4em .65em;
+}
+
+.nav2 li:hover {
+  background: rgba(78, 40, 40, 0.644);
+  
+}
+
+.nav2 li:hover a {
+  color: rgb(236, 226, 226);
+}
+
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  background: rgba(24, 23, 23, 0.9);
+  width: 100%;
+  display: none;
+  color: rgb(141, 100, 119);
+  padding: 2.5em;
+}
+
+.nav2 li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+.menu-sub a:hover {
+  text-decoration: none;
+}
+.main-menu a:hover {
+  text-decoration: none;
+}
+.menu-category {
+  margin: 2.5em 0 1.5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1,
+.menu-col-2
+ {
+  float: left;
+}
+
+.menu-col-1 {
+  width:30%;
+}
+
+.menu-col-2 {
+  width: 50%;
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height:533px;
+  background-size: cover;
+   
+}   
+.cap1 {
+    background-color: rgba(78, 67, 67, 0.219);
+    
+   
+}
+
+
+.menu-col-1{
+  float:left;
+}
+
+.menu-col-2{
+  float: right;
+}
+
+
+
+  /* HOME HEADING SECTION STYLING START*/
+  
+
+  #home-heading{
+    position:relative;
+    min-height:300px;
+    background:url(shopshop/lights.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgba(185, 160, 160, 0.938);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+    .container1{
+      margin-top: 5%;
+  
+
+    }
+  /* HOME HEADING SECTION STYLING END*/
+
+  

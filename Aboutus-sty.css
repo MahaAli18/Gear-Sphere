@@ -1,0 +1,29 @@
+ 
+#page-header{
+    background: url(shopshop/4k-wallpaper-abstract-art-1210276.jpg);
+    background-position: 0 -360px; /* for moving*/
+    background-attachment: fixed;
+    color:#fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+    padding-bottom: 2%;
+
+}
+#about{
+    background-color: rgba(49, 4, 12, 0.116);
+    margin-bottom: -2%;
+
+}
+
+.info{
+    background-color:rgba(141, 106, 119, 0.829);
+
+    
+}
+
+.heading4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30%;
+    margin-top: 5%;
+
+}
